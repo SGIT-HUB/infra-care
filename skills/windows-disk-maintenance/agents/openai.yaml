@@ -1,0 +1,4 @@
+interface:
+  display_name: "Windows 磁盘清理与迁移"
+  short_description: "按当前机器实际状态盘点空间、规划数据迁移，并维护验证与回滚记录"
+  default_prompt: "请使用 $windows-disk-maintenance 参考维护档案的方法，先只读检查当前机器并提出清理与迁移方案。"

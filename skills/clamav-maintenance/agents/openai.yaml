@@ -1,0 +1,6 @@
+interface:
+  display_name: "ClamAV 按需安全维护"
+  short_description: "仅在用户明确启用时处理 ClamAV 安装、病毒库与指定扫描，不自动运行"
+  default_prompt: "请使用 $clamav-maintenance，按我明确指定的范围执行本次 ClamAV 维护。"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,42 @@
+# Private machine state and temporary backups
+/local/
+/backups/
+/private/
+/secrets/
+local-root.txt
+
+# Legacy machine records: do not accidentally republish copied files
+/历史备份/
+/旧机器历史/
+/本机维护档案*.md
+/当前本机维护档案*.md
+/软件配置与使用*.md
+/本机独立容器*.md
+
+# Actual credentials and runtime output
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.kdbx
+*.log
+*.dump
+*.rdb
+*.aof
+*.vhd
+*.vhdx
+id_rsa*
+id_ed25519*
+
+# Local tool and editor data
+/.codex/
+/.claude/
+/.idea/
+/.vscode/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db

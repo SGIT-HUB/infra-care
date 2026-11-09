@@ -1,0 +1,6 @@
+interface:
+  display_name: "本机综合维护"
+  short_description: "跨平台接续本机软件与环境维护，识别机器身份并区分通用技能和私有档案"
+  default_prompt: "请使用 $machine-maintenance，读取 infra-care 项目，核对当前机器身份后处理本次维护。"
+policy:
+  allow_implicit_invocation: true
