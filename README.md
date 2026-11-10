@@ -19,7 +19,8 @@
 1. 将本仓库克隆或复制到本机，先读取 [AGENTS.md](AGENTS.md)。
 2. 使用 [本机综合维护技能](skills/machine-maintenance/SKILL.md)，按 [机器识别与档案](skills/machine-maintenance/references/机器识别与档案.md) 核对机器身份，再读取或建立 `local/` 档案。
 3. Windows 磁盘任务按需读取 [磁盘专项技能](skills/windows-disk-maintenance/SKILL.md)。
-4. 维护后更新实际路径、连接信息位置和验证结果，区分“建议”“已写入”和“已生效”。
+4. 目录整理遵循 [目录归类与迁移](docs/目录归类与迁移.md)，参考 [示例目录布局](examples/示例-目录布局.md)。
+5. 维护后更新实际路径、连接信息位置和验证结果，区分“建议”“已写入”和“已生效”。
 
 支持个人技能目录的工具可以安装所需的完整技能文件夹；也可以直接读取仓库中的 SKILL.md。安装方式不等同于授权执行其中的变更。安装副本可用仅保存在本机的 `local-root.txt` 记录仓库根目录；该定位文件不能提交。
 
