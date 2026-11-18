@@ -50,4 +50,6 @@
 
 后续真实任务中观察是否更容易找到材料、少读无关内容、避免重复错误，并能分清建议与已验证事实。效果不好时修订路由或撤回变更；不以文件数量、总结篇数作为进化成绩，不为统计另建后台系统。
 
+学习外部项目时，查阅与当前问题相关的上游文档或实现，说明证据、适用条件和本仓库实际采用的取舍；借鉴不等于本机验证。优先合并进已有约定，不逐项目新建技能、报告或源码副本。涉及代码复用时先核对对应版本的许可及本仓库第三方约定，不能假定都采用本仓库的 MIT 协议。维护工具的具体取舍见 [使用约定](docs/使用约定.md#外部项目的学习与取舍)。
+
 设计借鉴：[Hermes 的主题式经验维护](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills#agent-managed-skills-skill_manage-tool)、[Curator 的生命周期与恢复](https://hermes-agent.nousresearch.com/docs/user-guide/features/curator)、[OpenViking 的分层读取](https://github.com/volcengine/OpenViking/blob/main/docs/en/concepts/03-context-layers.md)、[LangMem 的知识协调](https://langchain-ai.github.io/langmem/concepts/conceptual_guide/)、[Letta 的常驻与检索记忆](https://github.com/letta-ai/skills/blob/main/letta/agent-development/references/memory-architecture.md)。本仓库采用相应原则，不依赖这些项目运行。
