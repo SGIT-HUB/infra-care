@@ -24,6 +24,7 @@ description: Use when the user requests 本机维护、软件配置与使用、�
 | 网络与代理 | 网卡路由、DNS、系统代理、客户端与出口分别定位 |
 | OpenResty stream 空闲断连 | 按需读取 [连接超时排查](references/OpenResty-stream-连接超时排查.md)，区分代理、客户端和后端超时 |
 | Linux 服务日志轮转 | 按需读取 [日志轮转](references/Linux-日志轮转.md)，先确认日志去向与服务重开机制 |
+| Linux 服务管理脚本 | 按需读取 [服务管理脚本规范](references/Linux-服务管理脚本规范.md)，新增或修改 ~/bin/ 下的维护脚本时核对模板与约定 |
 | Windows 磁盘任务 | 按需读取仓库 skills/windows-disk-maintenance/SKILL.md |
 | Linux 与 macOS | 使用本平台原生工具和官方说明，不执行 Windows 专项命令 |
 | 归档与接续 | 实际路径、挂载、连接信息位置、验证结果和剩余工作 |
